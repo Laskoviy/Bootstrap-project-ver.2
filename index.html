@@ -1,0 +1,1481 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1/0">
+  <title>Chery</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="body-container">
+    <header class="page-header">
+      <div class="page-header-container">
+        <a class="navigation-logo" href="index.html" aria-current="page">
+            <img class="page-header-logo d-inline-block align-text-top" src="img/double-logo.svg" width="358"
+                height="40" alt="Логотип Cherry">
+        </a>
+        <input type="checkbox" id="checkbox">
+        <nav class="page-navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#models-range">Модельный ряд</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#equipment">комплектации</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#credit">Кредит</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#special-offer">спецпредложения</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#contacts">Контакты</a>
+                </li>
+            </ul>
+            <section class="contacts">
+                <h2 class="visually-hidden" hidden>Контакты</h2>
+                <address class="contacts-address">
+                    <a class="contacts-address-link place " href="#">Мкад 44-й км, влд. 1 стр. 2</a>
+                    <a class="contacts-address-link phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+                </address>
+                <button class="button header-button">
+                    <span>заказать звонок</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                            fill="#FFF" />
+                    </svg>
+                </button>
+            </section>
+        </nav>
+        <label for="checkbox">
+            <i class="fa fa-bars menu-icon"></i>
+        </label>
+    </div>
+      <section class="slider">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+              class="carousel-indicator active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+              class="carousel-indicator"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+              class="carousel-indicator"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="slider-img" src="img/slider/slider1.jpg" width="1920" height="931" class="d-block w-100"
+                alt="летние выгоды на автомобили chery">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="slide-title">рассрочка или выгодный кредит до 84 мес</h1>
+                <p class="slide-info">летние выгоды на автомобили chery</p>
+                <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>Получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="slider-img" src="img/slider/slider2.jpg" width="1920" height="931" class="d-block w-100"
+                alt="специальная цена от 2 500 000 ₽">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="slide-title">tiggo 8 pro max</h1>
+                <p class="slide-info">специальная цена от 2 500 000 ₽</p>
+                <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>Получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="slider-img" src="img/slider/slider3.jpg" width="1920" height="931" class="d-block w-100"
+                alt="chery arrizo 8 от 2 400 000 ₽">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="slide-title">выгода до 130 000₽</h1>
+                <p class="slide-info">chery arrizo 8 от 2 400 000 ₽</p>
+                <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>Получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-icon" aria-hidden="true">
+              <svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 1 1 21l20 20" stroke="#FFF" stroke-width="2" stroke-linejoin="round"
+                  stroke-linecap="round" />
+              </svg>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-icon" aria-hidden="true">
+              <svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m1 41 20-20L1 1" stroke="#FFF" stroke-width="2" stroke-linejoin="round"
+                  stroke-linecap="round" />
+              </svg>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main class="main-container main-index">
+      <section class="counter">
+        <span class="counter-text">
+          До конца акции осталось:
+        </span>
+        <div class="count">
+          <script src="//megatimer.ru/get/01bcec0fcd4e0f33b937b679badec2eb.js"></script>
+        </div>
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="" for="phone">
+            <input class="form-input " type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
+          </label>
+          <label class="control" for="pdata">
+            <input class="visually-hidden control-input" type="checkbox" name="pdata" id="pdata" checked>
+            <span class="control-mark"></span>
+            <span class="control-label">Нажимая кнопку, Вы даете согласие на обработку персональных данных</span>
+          </label>
+          <button class="button" type="submit">
+            <span>зафиксировать предложение</span>
+            <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                fill="currentColor" />
+            </svg>
+          </button>
+        </form>
+      </section>
+      <section class="offers">
+        <button class="offer-button">пониженная ставка по кредиту</button>
+        <button class="offer-button">полезные подарки от дилера на ваш выбор</button>
+        <button class="offer-button">официальный дилер</button>
+      </section>
+      <section class="catalog">
+        <h2 class="catalog-title" id="models-range">Модельный ряд</h2>
+        <ul class="models-list">
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model1">Tiggo 7 Pro Max</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model2">Tiggo 7 Pro</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model3">Tiggo 4 Pro</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model4">Tiggo 4 Pro New</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model5">Arrizo 8</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model6">Tiggo 8 Pro</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model7">Tiggo 8 New</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model8">Tiggo 8 Pro Max</a>
+          </li>
+          <li class="models-list-item">
+            <a class="models-list-item-link" href="#model9">Tiggo 8 Pro Max New</a>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title">TIGGO 7 PRO PLUG-IN HYBRID</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tyggo-7-pro-plug-inn-hybrid.jpg"
+              alt="TIGGO 7 PRO PLUG-IN HYBRID">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title">TIGGO  8 PRO е+ HYBRID</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-8-pro-е-hybryd.jpg"
+              alt="TIGGO  8 PRO е+ HYBRID">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title">TIGGO 8 PRO PLUG-IN HYBRID</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-8-pro-plug-inn-hybrid.jpg"
+              alt="TIGGO 8 PRO PLUG-IN HYBRID">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title">TIGGO 7 PRO MAX NEW</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-7-pro-max-new.jpg"
+              alt="TIGGO 7 PRO MAX NEW">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model1">Tiggo 7 PRO MAX</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-7-pro-max.jpg"
+              alt="Tiggo 7 PRO MAX">
+
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model2">Tiggo 7 PRO</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-4-pro.jpg" alt="Tiggo 7 PRO">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model3">Tiggo 4 PRO</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-4-pro.jpg" alt="Tiggo 4 PRO">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model4">Tiggo 4 Pro New</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-4-pro-new.jpg"
+              alt="Tiggo 4 Pro New">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model5">arrizo 8</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/arrizo-8.jpg" alt="arrizo 8">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model6">Tiggo 8 pro</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-8-pro.jpg" alt="Tiggo 8 pro">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model7">Tiggo 8 new</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-8-new.jpg" alt="Tiggo 8 new">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model8">Tiggo 8 PRO MAX</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-8-pro-max.jpg"
+              alt="Tiggo 8 PRO MAX">
+          </li>
+          <li class="catalog-list-item">
+            <div class="model-discription">
+              <h3 class="model-title" id="model9">Tiggo 8 Pro Max New</h3>
+              <div class="prices">
+                <span class="model-price current-price">от<b class="amount">2 400 000</b>₽</span>
+                <span class="model-price old-price"><b class="amount old">3 400 000</b> ₽</span>
+              </div>
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item percent">Рассрочка 0% на 78 месяцев</li>
+                <li class="features-list-item gift">Комплект резины или КАСКО в подарок</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <div class="button-group">
+                <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                  <span>получить предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+                <button class="button button-black" data-bs-toggle="modal" data-bs-target="#creditModal">
+                  <span>рассчитать кредит</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img class="model-picture" width="960" height="565" src="img/models/tiggo-8-pro-max-new.jpg"
+              alt="Tiggo 8 Pro Max New">
+          </li>
+        </ul>
+      </section>
+      <section class="equipment">
+        <h2 class="equipment-title" id="equipment">Комплектация</h2>
+        <div class="equipment-select-group">
+          <select class="select-control select-model" aria-label="Сортировка">
+            <option value="cheap">Модель</option>
+            <option value="popular">Сначала популярное</option>
+            <option value="expensive">Сначала дорогое</option>
+          </select>
+          <select class="select-control select-equipment" aria-label="Сортировка">
+            <option value="cheap">Комплектация</option>
+            <option value="popular">Сначала популярное</option>
+            <option value="expensive">Сначала дорогое</option>
+          </select>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <div class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h3 class="header-title">Tiggo 8 Pro Max New</h3>
+                <span class="gear">4WD Luxury</span>
+                <ul class="specifications-list">
+                  <li class="specifications-list-item transmission">МКПП 5</li>
+                  <li class="specifications-list-item gas">Бензин АИ-95</li>
+                  <li class="specifications-list-item drive">Передний</li>
+                  <li class="specifications-list-item horsepower">110 л.с.</li>
+                </ul>
+                <div class="button-accordion-group">
+                  <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                    <span>Получить предложение</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button class="button button-white">
+                    <span>рассчитать кредит</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <div class="outer-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Передние противотуманные фары</li>
+                    <li class="characteristics-list-item">Датчик света</li>
+                    <li class="characteristics-list-item">Галогенные фары</li>
+                    <li class="characteristics-list-item">Светодиодные фары:extraoption</li>
+                    <li class="characteristics-list-item">Cветодиодные задние фонари</li>
+                    <li class="characteristics-list-item">Светодиодные ходовые огни</li>
+                    <li class="characteristics-list-item">Задние противотуманные фонари</li>
+                    <li class="characteristics-list-item">Боковые зеркала в цвет кузова</li>
+                    <li class="characteristics-list-item">Электроподогрев зеркал</li>
+                    <li class="characteristics-list-item">Электропривод боковых зеркал</li>
+                    <li class="characteristics-list-item">Боковые зеркала с повторителями указателей поворота</li>
+                    <li class="characteristics-list-item">Ручки дверей в цвет кузова</li>
+                    <li class="characteristics-list-item">Электропривод багажника:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев заднего стекла</li>
+                    <li class="characteristics-list-item">Задний спойлер</li>
+                    <li class="characteristics-list-item">Бамперы:окрашенные в цвет кузова</li>
+                    <li class="characteristics-list-item">Рейлинги:extraoption</li>
+                    <li class="characteristics-list-item">Задний дворник</li>
+                    <li class="characteristics-list-item">Задние брызговики:extraoption</li>
+                    <li class="characteristics-list-item">Окраска кузова металлик:extraoption</li>
+                  </ul>
+                </div>
+                <div class="inner-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Цветной многофункциональный дисплей:extraoption</li>
+                    <li class="characteristics-list-item">Кожаная оплетка рулевого колеса</li>
+                    <li class="characteristics-list-item">Вертикальная регулировка руля</li>
+                    <li class="characteristics-list-item">Регулируемая рулевая колонка</li>
+                    <li class="characteristics-list-item">Управление аудиосистемой на руле</li>
+                    <li class="characteristics-list-item">Тахометр</li>
+                    <li class="characteristics-list-item">Кнопка запуска двигателя</li>
+                    <li class="characteristics-list-item">Телескопическая регулировка руля</li>
+                    <li class="characteristics-list-item">Датчик наружной температуры</li>
+                    <li class="characteristics-list-item">Регулировка передних сидений:В 6 направлениях</li>
+                    <li class="characteristics-list-item">Подголовники: 5</li>
+                    <li class="characteristics-list-item">Второй ряд сидений:складывается в соотношении 60/40</li>
+                    <li class="characteristics-list-item">Поясничная опора в передних сиденьях</li>
+                    <li class="characteristics-list-item">Разделительный подлокотник спереди</li>
+                    <li class="characteristics-list-item">Карманы на спинках передних сидений</li>
+                    <li class="characteristics-list-item">Коврики:extraoption</li>
+                    <li class="characteristics-list-item">Регулировка высоты сиденья</li>
+                    <li class="characteristics-list-item">Тканевая обивка салона</li>
+                    <li class="characteristics-list-item">Декоративная отделка:хром пакет интерьера \"Ambition\"</li>
+                    <li class="characteristics-list-item">Комбинированная обивка салона:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев передних сидений</li>
+                    <li class="characteristics-list-item">Центральный замок</li>
+                    <li class="characteristics-list-item">Ключ ДУ (дистанционный ключ)</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники передние</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники задние</li>
+                    <li class="characteristics-list-item">Бесключевой доступ:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев лобового стекла:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев форсунок стеклоомывателя</li>
+                    <li class="characteristics-list-item">Блок управления фарами</li>
+                    <li class="characteristics-list-item">Разъем электропитания</li>
+                    <li class="characteristics-list-item">Пакет курильщика:extraoption</li>
+                  </ul>
+                </div>
+                <div class="security-characteristic">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Антиблокировочная система (ABS)</li>
+                    <li class="characteristics-list-item">Система распределения тормозного усилия (EBD)</li>
+                    <li class="characteristics-list-item">Вспомогательная система торможения (BAS)</li>
+                    <li class="characteristics-list-item">Функция "Проводи меня домой"</li>
+                    <li class="characteristics-list-item">Задний парктроник</li>
+                    <li class="characteristics-list-item">Система электронного контроля устойчивости (ESP)</li>
+                    <li class="characteristics-list-item">Система помощи при старте на подъеме (HAC)</li>
+                    <li class="characteristics-list-item">Круиз-контроль:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля давления в шинах</li>
+                    <li class="characteristics-list-item">Система мониторинга «слепых зон»:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля усталости водителя:extraoption</li>
+                    <li class="characteristics-list-item">Автоблокировка дверей при езде</li>
+                    <li class="characteristics-list-item">Антипробуксовочная система (TCS)</li>
+                    <li class="characteristics-list-item">Автоматическое включение аварийной сигнализации при экстренном
+                      торможении</li>
+                    <li class="characteristics-list-item">Интеллектуальная система помощи при парковке (IPA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система адаптивного освещения дороги (AFS):extraoption</li>
+                    <li class="characteristics-list-item">Система управления дальним светом:extraoption</li>
+                    <li class="characteristics-list-item">Система предотвращения выезда из полосы движения
+                      (LKA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система предотвращения столкновения с функцией автоматического
+                      торможения:extraoption</li>
+                    <li class="characteristics-list-item">Подушка безопасности водительская</li>
+                    <li class="characteristics-list-item">Подушка безопасности переднего пассажира</li>
+                    <li class="characteristics-list-item">Подушка безопасности боковая</li>
+                    <li class="characteristics-list-item">Подушка безопасности пассажира с функцией деактивации</li>
+                    <li class="characteristics-list-item">Подушки безопасности-шторки</li>
+                    <li class="characteristics-list-item">Подушка безопасности для коленей водителя:extraoption</li>
+                    <li class="characteristics-list-item">Крепление ISOFIX</li>
+                    <li class="characteristics-list-item">Натяжитель ремней безопасности</li>
+                    <li class="characteristics-list-item">Трехточечный ремень безопасности</li>
+                    <li class="characteristics-list-item">ЭРА-ГЛОНАСС</li>
+                    <li class="characteristics-list-item">Дополнительный стоп-сигнал</li>
+                    <li class="characteristics-list-item">Фиксатор ремней безопасности</li>
+                    <li class="characteristics-list-item">Активный подголовник</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h3 class="header-title">Tiggo 8 Pro Max New</h3>
+                <span class="gear">4WD Luxury</span>
+                <ul class="specifications-list">
+                  <li class="specifications-list-item transmission">МКПП 5</li>
+                  <li class="specifications-list-item gas">Бензин АИ-95</li>
+                  <li class="specifications-list-item drive">Передний</li>
+                  <li class="specifications-list-item horsepower">110 л.с.</li>
+                </ul>
+                <div class="button-accordion-group">
+                  <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                    <span>Получить предложение</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button class="button button-white">
+                    <span>рассчитать кредит</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <div class="outer-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Передние противотуманные фары</li>
+                    <li class="characteristics-list-item">Датчик света</li>
+                    <li class="characteristics-list-item">Галогенные фары</li>
+                    <li class="characteristics-list-item">Светодиодные фары:extraoption</li>
+                    <li class="characteristics-list-item">Cветодиодные задние фонари</li>
+                    <li class="characteristics-list-item">Светодиодные ходовые огни</li>
+                    <li class="characteristics-list-item">Задние противотуманные фонари</li>
+                    <li class="characteristics-list-item">Боковые зеркала в цвет кузова</li>
+                    <li class="characteristics-list-item">Электроподогрев зеркал</li>
+                    <li class="characteristics-list-item">Электропривод боковых зеркал</li>
+                    <li class="characteristics-list-item">Боковые зеркала с повторителями указателей поворота</li>
+                    <li class="characteristics-list-item">Ручки дверей в цвет кузова</li>
+                    <li class="characteristics-list-item">Электропривод багажника:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев заднего стекла</li>
+                    <li class="characteristics-list-item">Задний спойлер</li>
+                    <li class="characteristics-list-item">Бамперы:окрашенные в цвет кузова</li>
+                    <li class="characteristics-list-item">Рейлинги:extraoption</li>
+                    <li class="characteristics-list-item">Задний дворник</li>
+                    <li class="characteristics-list-item">Задние брызговики:extraoption</li>
+                    <li class="characteristics-list-item">Окраска кузова металлик:extraoption</li>
+                  </ul>
+                </div>
+                <div class="inner-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Цветной многофункциональный дисплей:extraoption</li>
+                    <li class="characteristics-list-item">Кожаная оплетка рулевого колеса</li>
+                    <li class="characteristics-list-item">Вертикальная регулировка руля</li>
+                    <li class="characteristics-list-item">Регулируемая рулевая колонка</li>
+                    <li class="characteristics-list-item">Управление аудиосистемой на руле</li>
+                    <li class="characteristics-list-item">Тахометр</li>
+                    <li class="characteristics-list-item">Кнопка запуска двигателя</li>
+                    <li class="characteristics-list-item">Телескопическая регулировка руля</li>
+                    <li class="characteristics-list-item">Датчик наружной температуры</li>
+                    <li class="characteristics-list-item">Регулировка передних сидений:В 6 направлениях</li>
+                    <li class="characteristics-list-item">Подголовники: 5</li>
+                    <li class="characteristics-list-item">Второй ряд сидений:складывается в соотношении 60/40</li>
+                    <li class="characteristics-list-item">Поясничная опора в передних сиденьях</li>
+                    <li class="characteristics-list-item">Разделительный подлокотник спереди</li>
+                    <li class="characteristics-list-item">Карманы на спинках передних сидений</li>
+                    <li class="characteristics-list-item">Коврики:extraoption</li>
+                    <li class="characteristics-list-item">Регулировка высоты сиденья</li>
+                    <li class="characteristics-list-item">Тканевая обивка салона</li>
+                    <li class="characteristics-list-item">Декоративная отделка:хром пакет интерьера \"Ambition\"</li>
+                    <li class="characteristics-list-item">Комбинированная обивка салона:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев передних сидений</li>
+                    <li class="characteristics-list-item">Центральный замок</li>
+                    <li class="characteristics-list-item">Ключ ДУ (дистанционный ключ)</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники передние</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники задние</li>
+                    <li class="characteristics-list-item">Бесключевой доступ:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев лобового стекла:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев форсунок стеклоомывателя</li>
+                    <li class="characteristics-list-item">Блок управления фарами</li>
+                    <li class="characteristics-list-item">Разъем электропитания</li>
+                    <li class="characteristics-list-item">Пакет курильщика:extraoption</li>
+                  </ul>
+                </div>
+                <div class="security-characteristic">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Антиблокировочная система (ABS)</li>
+                    <li class="characteristics-list-item">Система распределения тормозного усилия (EBD)</li>
+                    <li class="characteristics-list-item">Вспомогательная система торможения (BAS)</li>
+                    <li class="characteristics-list-item">Функция "Проводи меня домой"</li>
+                    <li class="characteristics-list-item">Задний парктроник</li>
+                    <li class="characteristics-list-item">Система электронного контроля устойчивости (ESP)</li>
+                    <li class="characteristics-list-item">Система помощи при старте на подъеме (HAC)</li>
+                    <li class="characteristics-list-item">Круиз-контроль:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля давления в шинах</li>
+                    <li class="characteristics-list-item">Система мониторинга «слепых зон»:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля усталости водителя:extraoption</li>
+                    <li class="characteristics-list-item">Автоблокировка дверей при езде</li>
+                    <li class="characteristics-list-item">Антипробуксовочная система (TCS)</li>
+                    <li class="characteristics-list-item">Автоматическое включение аварийной сигнализации при экстренном
+                      торможении</li>
+                    <li class="characteristics-list-item">Интеллектуальная система помощи при парковке (IPA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система адаптивного освещения дороги (AFS):extraoption</li>
+                    <li class="characteristics-list-item">Система управления дальним светом:extraoption</li>
+                    <li class="characteristics-list-item">Система предотвращения выезда из полосы движения
+                      (LKA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система предотвращения столкновения с функцией автоматического
+                      торможения:extraoption</li>
+                    <li class="characteristics-list-item">Подушка безопасности водительская</li>
+                    <li class="characteristics-list-item">Подушка безопасности переднего пассажира</li>
+                    <li class="characteristics-list-item">Подушка безопасности боковая</li>
+                    <li class="characteristics-list-item">Подушка безопасности пассажира с функцией деактивации</li>
+                    <li class="characteristics-list-item">Подушки безопасности-шторки</li>
+                    <li class="characteristics-list-item">Подушка безопасности для коленей водителя:extraoption</li>
+                    <li class="characteristics-list-item">Крепление ISOFIX</li>
+                    <li class="characteristics-list-item">Натяжитель ремней безопасности</li>
+                    <li class="characteristics-list-item">Трехточечный ремень безопасности</li>
+                    <li class="characteristics-list-item">ЭРА-ГЛОНАСС</li>
+                    <li class="characteristics-list-item">Дополнительный стоп-сигнал</li>
+                    <li class="characteristics-list-item">Фиксатор ремней безопасности</li>
+                    <li class="characteristics-list-item">Активный подголовник</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h3 class="header-title">Tiggo 8 Pro Max New</h3>
+                <span class="gear">4WD Luxury</span>
+                <ul class="specifications-list">
+                  <li class="specifications-list-item transmission">МКПП 5</li>
+                  <li class="specifications-list-item gas">Бензин АИ-95</li>
+                  <li class="specifications-list-item drive">Передний</li>
+                  <li class="specifications-list-item horsepower">110 л.с.</li>
+                </ul>
+                <div class="button-accordion-group">
+                  <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                    <span>Получить предложение</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button class="button button-white">
+                    <span>рассчитать кредит</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <div class="outer-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Передние противотуманные фары</li>
+                    <li class="characteristics-list-item">Датчик света</li>
+                    <li class="characteristics-list-item">Галогенные фары</li>
+                    <li class="characteristics-list-item">Светодиодные фары:extraoption</li>
+                    <li class="characteristics-list-item">Cветодиодные задние фонари</li>
+                    <li class="characteristics-list-item">Светодиодные ходовые огни</li>
+                    <li class="characteristics-list-item">Задние противотуманные фонари</li>
+                    <li class="characteristics-list-item">Боковые зеркала в цвет кузова</li>
+                    <li class="characteristics-list-item">Электроподогрев зеркал</li>
+                    <li class="characteristics-list-item">Электропривод боковых зеркал</li>
+                    <li class="characteristics-list-item">Боковые зеркала с повторителями указателей поворота</li>
+                    <li class="characteristics-list-item">Ручки дверей в цвет кузова</li>
+                    <li class="characteristics-list-item">Электропривод багажника:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев заднего стекла</li>
+                    <li class="characteristics-list-item">Задний спойлер</li>
+                    <li class="characteristics-list-item">Бамперы:окрашенные в цвет кузова</li>
+                    <li class="characteristics-list-item">Рейлинги:extraoption</li>
+                    <li class="characteristics-list-item">Задний дворник</li>
+                    <li class="characteristics-list-item">Задние брызговики:extraoption</li>
+                    <li class="characteristics-list-item">Окраска кузова металлик:extraoption</li>
+                  </ul>
+                </div>
+                <div class="inner-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Цветной многофункциональный дисплей:extraoption</li>
+                    <li class="characteristics-list-item">Кожаная оплетка рулевого колеса</li>
+                    <li class="characteristics-list-item">Вертикальная регулировка руля</li>
+                    <li class="characteristics-list-item">Регулируемая рулевая колонка</li>
+                    <li class="characteristics-list-item">Управление аудиосистемой на руле</li>
+                    <li class="characteristics-list-item">Тахометр</li>
+                    <li class="characteristics-list-item">Кнопка запуска двигателя</li>
+                    <li class="characteristics-list-item">Телескопическая регулировка руля</li>
+                    <li class="characteristics-list-item">Датчик наружной температуры</li>
+                    <li class="characteristics-list-item">Регулировка передних сидений:В 6 направлениях</li>
+                    <li class="characteristics-list-item">Подголовники: 5</li>
+                    <li class="characteristics-list-item">Второй ряд сидений:складывается в соотношении 60/40</li>
+                    <li class="characteristics-list-item">Поясничная опора в передних сиденьях</li>
+                    <li class="characteristics-list-item">Разделительный подлокотник спереди</li>
+                    <li class="characteristics-list-item">Карманы на спинках передних сидений</li>
+                    <li class="characteristics-list-item">Коврики:extraoption</li>
+                    <li class="characteristics-list-item">Регулировка высоты сиденья</li>
+                    <li class="characteristics-list-item">Тканевая обивка салона</li>
+                    <li class="characteristics-list-item">Декоративная отделка:хром пакет интерьера \"Ambition\"</li>
+                    <li class="characteristics-list-item">Комбинированная обивка салона:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев передних сидений</li>
+                    <li class="characteristics-list-item">Центральный замок</li>
+                    <li class="characteristics-list-item">Ключ ДУ (дистанционный ключ)</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники передние</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники задние</li>
+                    <li class="characteristics-list-item">Бесключевой доступ:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев лобового стекла:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев форсунок стеклоомывателя</li>
+                    <li class="characteristics-list-item">Блок управления фарами</li>
+                    <li class="characteristics-list-item">Разъем электропитания</li>
+                    <li class="characteristics-list-item">Пакет курильщика:extraoption</li>
+                  </ul>
+                </div>
+                <div class="security-characteristic">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Антиблокировочная система (ABS)</li>
+                    <li class="characteristics-list-item">Система распределения тормозного усилия (EBD)</li>
+                    <li class="characteristics-list-item">Вспомогательная система торможения (BAS)</li>
+                    <li class="characteristics-list-item">Функция "Проводи меня домой"</li>
+                    <li class="characteristics-list-item">Задний парктроник</li>
+                    <li class="characteristics-list-item">Система электронного контроля устойчивости (ESP)</li>
+                    <li class="characteristics-list-item">Система помощи при старте на подъеме (HAC)</li>
+                    <li class="characteristics-list-item">Круиз-контроль:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля давления в шинах</li>
+                    <li class="characteristics-list-item">Система мониторинга «слепых зон»:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля усталости водителя:extraoption</li>
+                    <li class="characteristics-list-item">Автоблокировка дверей при езде</li>
+                    <li class="characteristics-list-item">Антипробуксовочная система (TCS)</li>
+                    <li class="characteristics-list-item">Автоматическое включение аварийной сигнализации при экстренном
+                      торможении</li>
+                    <li class="characteristics-list-item">Интеллектуальная система помощи при парковке (IPA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система адаптивного освещения дороги (AFS):extraoption</li>
+                    <li class="characteristics-list-item">Система управления дальним светом:extraoption</li>
+                    <li class="characteristics-list-item">Система предотвращения выезда из полосы движения
+                      (LKA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система предотвращения столкновения с функцией автоматического
+                      торможения:extraoption</li>
+                    <li class="characteristics-list-item">Подушка безопасности водительская</li>
+                    <li class="characteristics-list-item">Подушка безопасности переднего пассажира</li>
+                    <li class="characteristics-list-item">Подушка безопасности боковая</li>
+                    <li class="characteristics-list-item">Подушка безопасности пассажира с функцией деактивации</li>
+                    <li class="characteristics-list-item">Подушки безопасности-шторки</li>
+                    <li class="characteristics-list-item">Подушка безопасности для коленей водителя:extraoption</li>
+                    <li class="characteristics-list-item">Крепление ISOFIX</li>
+                    <li class="characteristics-list-item">Натяжитель ремней безопасности</li>
+                    <li class="characteristics-list-item">Трехточечный ремень безопасности</li>
+                    <li class="characteristics-list-item">ЭРА-ГЛОНАСС</li>
+                    <li class="characteristics-list-item">Дополнительный стоп-сигнал</li>
+                    <li class="characteristics-list-item">Фиксатор ремней безопасности</li>
+                    <li class="characteristics-list-item">Активный подголовник</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour">
+                <h3 class="header-title">Tiggo 8 Pro Max New</h3>
+                <span class="gear">4WD Luxury</span>
+                <ul class="specifications-list">
+                  <li class="specifications-list-item">МКПП 5</li>
+                  <li class="specifications-list-item">Бензин АИ-95</li>
+                  <li class="specifications-list-item">Передний</li>
+                  <li class="specifications-list-item">110 л.с.</li>
+                </ul>
+                <div class="button-accordion-group">
+                  <button class="button" data-bs-toggle="modal" data-bs-target="#offerModal">
+                    <span>Получить предложение</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button class="button button-white">
+                    <span>рассчитать кредит</span>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <div class="outer-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Передние противотуманные фары</li>
+                    <li class="characteristics-list-item">Датчик света</li>
+                    <li class="characteristics-list-item">Галогенные фары</li>
+                    <li class="characteristics-list-item">Светодиодные фары:extraoption</li>
+                    <li class="characteristics-list-item">Cветодиодные задние фонари</li>
+                    <li class="characteristics-list-item">Светодиодные ходовые огни</li>
+                    <li class="characteristics-list-item">Задние противотуманные фонари</li>
+                    <li class="characteristics-list-item">Боковые зеркала в цвет кузова</li>
+                    <li class="characteristics-list-item">Электроподогрев зеркал</li>
+                    <li class="characteristics-list-item">Электропривод боковых зеркал</li>
+                    <li class="characteristics-list-item">Боковые зеркала с повторителями указателей поворота</li>
+                    <li class="characteristics-list-item">Ручки дверей в цвет кузова</li>
+                    <li class="characteristics-list-item">Электропривод багажника:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев заднего стекла</li>
+                    <li class="characteristics-list-item">Задний спойлер</li>
+                    <li class="characteristics-list-item">Бамперы:окрашенные в цвет кузова</li>
+                    <li class="characteristics-list-item">Рейлинги:extraoption</li>
+                    <li class="characteristics-list-item">Задний дворник</li>
+                    <li class="characteristics-list-item">Задние брызговики:extraoption</li>
+                    <li class="characteristics-list-item">Окраска кузова металлик:extraoption</li>
+                  </ul>
+                </div>
+                <div class="inner-characteristics">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Цветной многофункциональный дисплей:extraoption</li>
+                    <li class="characteristics-list-item">Кожаная оплетка рулевого колеса</li>
+                    <li class="characteristics-list-item">Вертикальная регулировка руля</li>
+                    <li class="characteristics-list-item">Регулируемая рулевая колонка</li>
+                    <li class="characteristics-list-item">Управление аудиосистемой на руле</li>
+                    <li class="characteristics-list-item">Тахометр</li>
+                    <li class="characteristics-list-item">Кнопка запуска двигателя</li>
+                    <li class="characteristics-list-item">Телескопическая регулировка руля</li>
+                    <li class="characteristics-list-item">Датчик наружной температуры</li>
+                    <li class="characteristics-list-item">Регулировка передних сидений:В 6 направлениях</li>
+                    <li class="characteristics-list-item">Подголовники: 5</li>
+                    <li class="characteristics-list-item">Второй ряд сидений:складывается в соотношении 60/40</li>
+                    <li class="characteristics-list-item">Поясничная опора в передних сиденьях</li>
+                    <li class="characteristics-list-item">Разделительный подлокотник спереди</li>
+                    <li class="characteristics-list-item">Карманы на спинках передних сидений</li>
+                    <li class="characteristics-list-item">Коврики:extraoption</li>
+                    <li class="characteristics-list-item">Регулировка высоты сиденья</li>
+                    <li class="characteristics-list-item">Тканевая обивка салона</li>
+                    <li class="characteristics-list-item">Декоративная отделка:хром пакет интерьера \"Ambition\"</li>
+                    <li class="characteristics-list-item">Комбинированная обивка салона:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев передних сидений</li>
+                    <li class="characteristics-list-item">Центральный замок</li>
+                    <li class="characteristics-list-item">Ключ ДУ (дистанционный ключ)</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники передние</li>
+                    <li class="characteristics-list-item">Электрические стеклоподъемники задние</li>
+                    <li class="characteristics-list-item">Бесключевой доступ:extraoption</li>
+                    <li class="characteristics-list-item">Электроподогрев лобового стекла:extraoption</li>
+                    <li class="characteristics-list-item">Обогрев форсунок стеклоомывателя</li>
+                    <li class="characteristics-list-item">Блок управления фарами</li>
+                    <li class="characteristics-list-item">Разъем электропитания</li>
+                    <li class="characteristics-list-item">Пакет курильщика:extraoption</li>
+                  </ul>
+                </div>
+                <div class="security-characteristic">
+                  <h4 class="characteristic-list-title">Экстерьер и внешнее оснащение</h4>
+                  <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Антиблокировочная система (ABS)</li>
+                    <li class="characteristics-list-item">Система распределения тормозного усилия (EBD)</li>
+                    <li class="characteristics-list-item">Вспомогательная система торможения (BAS)</li>
+                    <li class="characteristics-list-item">Функция "Проводи меня домой"</li>
+                    <li class="characteristics-list-item">Задний парктроник</li>
+                    <li class="characteristics-list-item">Система электронного контроля устойчивости (ESP)</li>
+                    <li class="characteristics-list-item">Система помощи при старте на подъеме (HAC)</li>
+                    <li class="characteristics-list-item">Круиз-контроль:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля давления в шинах</li>
+                    <li class="characteristics-list-item">Система мониторинга «слепых зон»:extraoption</li>
+                    <li class="characteristics-list-item">Система контроля усталости водителя:extraoption</li>
+                    <li class="characteristics-list-item">Автоблокировка дверей при езде</li>
+                    <li class="characteristics-list-item">Антипробуксовочная система (TCS)</li>
+                    <li class="characteristics-list-item">Автоматическое включение аварийной сигнализации при экстренном
+                      торможении</li>
+                    <li class="characteristics-list-item">Интеллектуальная система помощи при парковке (IPA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система адаптивного освещения дороги (AFS):extraoption</li>
+                    <li class="characteristics-list-item">Система управления дальним светом:extraoption</li>
+                    <li class="characteristics-list-item">Система предотвращения выезда из полосы движения
+                      (LKA):extraoption
+                    </li>
+                    <li class="characteristics-list-item">Система предотвращения столкновения с функцией автоматического
+                      торможения:extraoption</li>
+                    <li class="characteristics-list-item">Подушка безопасности водительская</li>
+                    <li class="characteristics-list-item">Подушка безопасности переднего пассажира</li>
+                    <li class="characteristics-list-item">Подушка безопасности боковая</li>
+                    <li class="characteristics-list-item">Подушка безопасности пассажира с функцией деактивации</li>
+                    <li class="characteristics-list-item">Подушки безопасности-шторки</li>
+                    <li class="characteristics-list-item">Подушка безопасности для коленей водителя:extraoption</li>
+                    <li class="characteristics-list-item">Крепление ISOFIX</li>
+                    <li class="characteristics-list-item">Натяжитель ремней безопасности</li>
+                    <li class="characteristics-list-item">Трехточечный ремень безопасности</li>
+                    <li class="characteristics-list-item">ЭРА-ГЛОНАСС</li>
+                    <li class="characteristics-list-item">Дополнительный стоп-сигнал</li>
+                    <li class="characteristics-list-item">Фиксатор ремней безопасности</li>
+                    <li class="characteristics-list-item">Активный подголовник</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="credit">
+        <div class="credit-discription">
+          <h2 class="credit-title" id="credit">выгодный кредит</h2>
+          <div class="credit-info">
+            <span>Специальные условия от Cherry</span>
+          </div>
+          <ul class="features-list">
+            <li class="features-list-item benefit">Досрочное погашение без штрафов</li>
+            <li class="features-list-item percent">Льготная ставка от 4,9%</li>
+            <li class="features-list-item gift">3 платежа по кредиту в подарок</li>
+          </ul>
+          <form class="subscription-form credit-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="" for="phone2">
+              <input class="form-input " type="tel" id="phone2" name="phone" placeholder="+7 (___) ___-__-__">
+            </label>
+            <label class="control" for="pdata2">
+              <input class="visually-hidden control-input" type="checkbox" name="pdata" id="pdata2" checked>
+              <span class="control-mark"></span>
+              <span class="control-label">Нажимая кнопку, Вы даете согласие на обработку персональных данных</span>
+            </label>
+            <button class="button big-button" type="submit">
+              <span>Подписаться</span>
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                  fill="currentColor" />
+              </svg>
+            </button>
+          </form>
+        </div>
+        <img class="model-picture" src="img/credit.jpg" width="960" height="505" alt="салон автомобиля">
+      </section>
+      <section class="special-offer">
+        <div class="offer-dicription">
+          <h2 class="special-offer-title" id="special-offer">спецпредложения</h2>
+          <div class="offer-info">
+            <span>Оставьте заявку, и получите специальную цену!</span>
+          </div>
+          <form class="subscription-form credit-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="" for="phone3">
+              <input class="form-input " type="tel" id="phone3" name="phone" placeholder="+7 (___) ___-__-__">
+            </label>
+            <label class="control" for="pdata3">
+              <input class="visually-hidden control-input" type="checkbox" name="pdata" id="pdata3" checked>
+              <span class="control-mark"></span>
+              <span class="control-label">Нажимая кнопку, Вы даете согласие на обработку персональных данных</span>
+            </label>
+            <button class="button big-button" type="submit">
+              <span>Подписаться</span>
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                  fill="currentColor" />
+              </svg>
+            </button>
+          </form>
+        </div>
+        <img class="model-picture" src="img/offer.jpg" width="960" height="310" alt="бампер красной машины">
+      </section>
+      <section class="map">
+        <h2 class="visually-hidden" id="contacts">Контакты</h2>
+        <div class="address">
+          <div class="address-logo-container">
+            <a class="address-logo" href="">
+              <svg width="418" height="36" viewBox="0 0 418 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M213 14.2a6.1 6.1 0 0 0-1.6-4.1 5 5 0 0 0-3.8-1.7h-23.7l2.2 3.8h21.5a1.7 1.7 0 0 1 1.7 1.2 2 2 0 0 1 0 1.5l-.4.7a1.8 1.8 0 0 1-1.3.5h-23.7v11.5h4.3v-7.7h16l4 7.7h4.7l-4.2-7.8c1.2-.3 2.3-1 3-2a6 6 0 0 0 1.2-3.6ZM142.6 16h-20.4V8.4H118v19.2h4.3v-7.7h20.4v7.7h4.3V8.4h-4.3v7.7ZM89.3 18a6.1 6.1 0 0 1 1.5-4c.5-.6 1.2-1 1.8-1.3a5 5 0 0 1 2-.5h17.2l2.2-3.8H94c-2.4 0-4.7 1-6.4 2.8a10 10 0 0 0-.8 12.6 8.5 8.5 0 0 0 7.2 3.8h17.8l2.2-3.8H94.7c-1.5 0-2.8-.7-3.8-1.7a6 6 0 0 1-1.6-4.1Zm150.6-9.6-10.2 8.4-10.2-8.4h-6.3l14 11.5v7.7h4.8v-7.7l14-11.5h-6Zm-84.6 5.7c0-.5.2-1 .5-1.3.3-.4.8-.6 1.3-.6h20.7l2.2-3.8h-23.7a5 5 0 0 0-3.8 1.7 5.8 5.8 0 0 0-1.5 4v13.5h26.8l2.2-3.8h-24.7v-3.9h18.2l2.2-3.8h-20.4v-2Zm-99.4-5A71 71 0 0 0 33.7 6h-.4l-4.7.1c-6.7.4-12.7 1.4-17.5 3C4.3 11.3 0 14.4 0 18c0 3 3 5.8 8.2 7.9A69.4 69.4 0 0 0 33.6 30a89.9 89.9 0 0 0 18.2-2c2.6-.5 5-1.3 7.1-2.1 5.1-2.1 8.2-4.9 8.2-7.9 0-3.6-4.3-6.7-11.2-9ZM14 21.4a4.5 4.5 0 0 1-4.8.5c-3-1.4-4.6-3.1-4.6-5 0-2.2 2.7-4.4 7.1-6C16.4 9.2 23.3 8 31.1 8h.3l1.4-.1-.9.2-.3.2c-1.2.5-2.8 1.6-3.3 2l-.1.1L15.8 20l-1.9 1.4Zm31.4 4a85.8 85.8 0 0 1-23.5 0c-3.3-.7-1.7-3-.8-4.1l.4-.5c3-3.2 6-6.1 9.3-8.9l.2-.2c.4-.3 1.6-1.1 2.6-1.1s2.3.8 2.7 1.2h.2v.1a100 100 0 0 1 9.7 9.4c.8 1 2.5 3.4-.8 4ZM58 21.8c-.8.4-1.7.6-2.5.5-.9-.1-1.7-.5-2.3-1L51.3 20 39 10.3l-.2-.1c-.5-.4-2-1.5-3.2-2l-.3-.1c-.3-.2-.6-.3-1-.3H36A65 65 0 0 1 55.5 11c4.4 1.6 7.1 3.8 7.1 6 0 1.9-1.7 3.6-4.6 5Z"
+                  fill="#A6192E" />
+                <path stroke="#000" d="M256 0v36" />
+                <path
+                  d="M284.5 1.7a74.7 74.7 0 0 1 2 2.2l6 23.2c.1.3.2.4 0 .6a1924.9 1924.9 0 0 0-6.7 6.6l-1.4-32.5h.1ZM281.6 34.4l-.4-.4-6.2-6.2c-.2-.2-.3-.4-.2-.7l6-23.1.4-.6 1.8-1.8-1.4 32.8ZM289 6.2l12.4 12.5-6.6 6.6-5.9-19ZM278.4 6.3l-5.8 19-6.6-6.6 12.4-12.4ZM396.5 17.7c0 3.1-1.9 6.9-6 8-3.2 1-6.3.6-8.9-1.8a8 8 0 0 1-2.5-5 8 8 0 0 1 6-8.7 9 9 0 0 1 9 2.3 7.8 7.8 0 0 1 2.4 5.2Zm-2.3.9c0-2-.3-3-.9-4.3-2.2-4.3-8.2-4.7-10.8-.6a8 8 0 0 0-.3 8 6 6 0 0 0 8.9 2.4c2.1-1.4 3-3.5 3.1-5.5ZM401 13.7v12.5h-1.2V9.7L413 22.4V9.9h1.1v16.4l-13.2-12.6ZM332.1 24.9v1.3H321.9c-.4 0-.4 0-.4-.4V10H332v1.3h-8.4V17h7.2v1h-7.2V25h8.4ZM309.3 19.7v6.5H307V9.8h5.4c1.8 0 3.3.6 4.4 2a4.8 4.8 0 0 1-2 7.5c-.8.3-1.6.4-2.4.4h-3.2Zm0-1h2.8c1.9-.1 3.4-1.6 3.5-3.7.2-1.6-.8-3.6-2.9-4-1-.1-2.1 0-3.2 0 0-.1-.1 0-.2 0v7.6ZM352 24.9h8.4v1.3h-10.6V9.9h10.5v1.3H352V17h7.2v1H352V25ZM362.6 9.9h14.8v1c0 .2-.2.3-.3.3h-6v15H369v-15H363c-.4 0-.5-.1-.5-.4v-1ZM335.6 9.9h2.2v15h8.4V26l-.3.2h-10.3V10Z"
+                  fill="#000" />
+              </svg>
+            </a>
+          </div>
+          <ul class="addresses-list">
+            <li class="addresses-list-item">Ежедневно с 8:00 до 21:00 </li>
+            <li class="addresses-list-item">
+              <a href="tel:+74959999999">+7 (495) 999-99-99</a>
+            </li>
+            <li class="addresses-list-item">
+              <a href="info@peleton.ru">info@peleton.ru</a>
+            </li>
+            <li class="addresses-list-item">Мкад 44-й км, влд. 1 стр. 2</li>
+          </ul>
+        </div>
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af606a0d3bf81b68a781bc33c32245436e38b661fbd429d4a0aa305b4d37ce119&amp;width=1161&amp;height=310&amp;lang=ru_RU&amp;scroll=true"></script>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="partners">
+        <h2 class="visually-hidden">Партнеры</h2>
+        <ul class="partners-list">
+          <li class="partners-list-item"><a href=""><img src="img/banks/sov.jpg" alt="Совкомбанк"></a></li>
+          <li class="partners-list-item"><a href=""><img src="img/banks/ros.jpg" alt="РосБанк"></a></li>
+          <li class="partners-list-item"><a href=""><img src="img/banks/alf.jpg" alt="Альфабанк"></a></li>
+          <li class="partners-list-item"><a href=""><img src="img/banks/drive.jpg" alt="ДрайвКлик"></a></li>
+          <li class="partners-list-item"><a href=""><img src="img/banks/vtb.jpg" alt="ВТБ"></a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h2 class="visually-hidden">Полезная информация</h2>
+        <ul class="docs-list">
+          <li class="docs-list-item"><a href="" class="doc-link">Пользовательское соглашение</a></li>
+          <li class="docs-list-item"><a href="" class="doc-link">Политика конфиденциальности</a></li>
+          <li class="docs-list-item"><a href="" class="doc-link">Условия кредитования</a></li>
+        </ul>
+      </div>
+      <span class="corp-info">
+        Общество с ограниченной ответственностью «Финанс Лайн»
+        ООО «Финанс Лайн»
+        ИНН 7751294798
+        ОГРН 1247700093960
+      </span>
+      <span class="special-info">
+        Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный
+        характер и ни при каких условиях не является публичной офертой, определяемой положениями
+        Статьи 437 Гражданского кодекса Российской Федерации.
+      </span>
+    </footer>
+    <!-- Credit-Modal -->
+    <div class="modal fade" id="creditModal" tabindex="-1" aria-labelledby="creditModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content credit-modal">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="creditModalLabel">Оставьте заявку на покупку нового Chery в кредит по
+              лучшим условиям!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <svg width="16.4" height="16.4" viewBox="0 0 16.4 16.4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m15.7.7-15 15M.7.7l15 15" stroke="#FFF" stroke-width="2" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="credit-discription-modal">
+              <ul class="features-list">
+                <li class="features-list-item benefit">Досрочное погашение без штрафов</li>
+                <li class="features-list-item percent">Льготная ставка от 4,9%</li>
+                <li class="features-list-item gift">3 платежа по кредиту в подарок</li>
+              </ul>
+              <form class="subscription-form credit-form" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="" for="phone4">
+                  <input class="form-input " type="tel" id="phone4" name="phone" placeholder="+7 (___) ___-__-__">
+                </label>
+                <label class="control" for="pdata4">
+                  <input class="visually-hidden control-input" type="checkbox" name="pdata" id="pdata4" checked>
+                  <span class="control-mark"></span>
+                  <span class="control-label">Нажимая кнопку, Вы даете согласие на обработку персональных
+                    данных</span>
+                </label>
+                <button class="button big-button" type="submit">
+                  <span>зафиксировать предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offer-Modal -->
+    <div class="modal fade" id="offerModal" tabindex="-1" aria-labelledby="offerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content credit-modal">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="creditModalLabel">Получите лучшее персональное предложение на покупку
+              Chery</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <svg width="16.4" height="16.4" viewBox="0 0 16.4 16.4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m15.7.7-15 15M.7.7l15 15" stroke="#FFF" stroke-width="2" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="credit-discription-modal">
+              <ul class="features-list">
+                <li class="features-list-item benefit">Выгода до 400 000 ₽</li>
+                <li class="features-list-item trade-in">Скидка за Tradе-in до 200 000 ₽</li>
+                <li class="features-list-item warranty">Гарантия и поддержка 7 лет</li>
+              </ul>
+              <form class="subscription-form credit-form" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="" for="phone5">
+                  <input class="form-input " type="tel" id="phone5" name="phone" placeholder="+7 (___) ___-__-__">
+                </label>
+                <label class="control" for="pdata5">
+                  <input class="visually-hidden control-input" type="checkbox" name="pdata" id="pdata5" checked>
+                  <span class="control-mark"></span>
+                  <span class="control-label">Нажимая кнопку, Вы даете согласие на обработку персональных
+                    данных</span>
+                </label>
+                <button class="button big-button" type="submit">
+                  <span>зафиксировать предложение</span>
+                  <svg width="16" height="8" viewBox="0 0 16 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.7 7.69 3-3c.19-.19.3-.39.3-.69 0-.31-.11-.5-.3-.7l-3-3c-.41-.41-1-.41-1.41 0-.4.39-.4 1 0 1.39L12.6 3H1c-.61 0-1 .39-1 1 0 .6.39 1 1 1h11.6l-1.31 1.3c-.4.39-.4 1 0 1.39.41.41 1 .41 1.41 0Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
